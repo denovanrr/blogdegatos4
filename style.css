@@ -1,0 +1,187 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+#Frame10{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+    margin: 0 0 0 3rem;
+}
+#Frame10 h2{
+    color: var(--platform-aliases-shape-principal, #202024);
+    font-family: Mulish;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 3.84rem */
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+.desc h2{
+    color: var(--platform-aliases-shape-principal, #202024);
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 2.88rem */
+}
+.desc p{   
+color: var(--platform-aliases-background, #121214);
+font-family: Mulish;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 2.24rem */
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 7.2rem;
+    padding: 1.2rem 11.2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--brand-colors-explorer-dark, #065E7C);
+}
+#paw{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+    border-radius: 999.9rem;
+    background: #F4FCFF;
+}
+#AutocompleteField{
+    display: flex;
+    width: 108.3rem;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    align-items: center;
+    gap: 1.2rem;
+    flex-shrink: 0;
+    border-radius: 0.4rem;
+    background: rgba(255, 255, 255, 0.20);
+}
+#AutocompleteField label, input{
+    width: 113.7rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+#Jojo{
+    width: 4.2rem;
+    height: 4.2rem;
+    flex-shrink: 0;
+    border-radius: 99.9rem;
+    background: url(./assets/Jojo.png), lightgray 0px -3.049px / 100% 149.817% no-repeat;
+}
+p{
+    width: auto;
+    color: var(--platform-aliases-background, #121214);
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+} 
+main{
+    width: 70%;
+    display: flex;
+    margin: 5rem;
+}
+#main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#menu{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+#Frame13{
+    display: inline-flex;
+    align-items: center;
+    gap: 36.6rem;
+    margin: 3rem 0rem 3rem 0rem;
+}
+#Frame13 h1{
+    color: var(--platform-aliases-shape-principal, #202024);
+    font-family: Mulish;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 3.84rem */
+
+}
+#gato{
+    border-radius: 0.5rem;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    gap: 5rem;
+}
+#action{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+.button{
+display: flex;
+gap: 1rem;
+}
+.button img{
+    display: flex;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 99.9rem;
+    background: var(--brand-colors-explorer-dark, #065E7C);
+}
+footer{
+    display: flex;
+width: 100%;
+height: 6.4rem;
+padding: 1.6rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+flex-shrink: 0;
+background: #387E96;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: stretch;
+}
